@@ -16,4 +16,4 @@ http://127.0.0.1:5000/weather/guangzhou.
 
 The website looks like this:
 
-<img src="./screenshot/screenshot.png" height=500 />
+![](screenshot/screenshot.png)
