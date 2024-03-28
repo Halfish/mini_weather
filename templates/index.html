@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Weather</title>
+  </head>
+  <body>
+    <p>{{city}}</p>
+    <div>
+      {% for data in dataset %}
+      <table style="margin: 10px">
+        {% for key in data %}
+        <tr>
+          <td>{{key}}</td>
+          <td>{{data[key]}}</td>
+        </tr>
+        {% endfor %}
+      </table>
+      <hr />
+      {% endfor %}
+    </div>
+  </body>
+</html>
